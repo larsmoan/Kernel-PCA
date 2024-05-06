@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "kernel-pca"
+version = "0.1.0"
+description = ""
+authors = ["Lars Moan <lars.ostberg.moan@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+scikit-learn = "^1.4.1.post1"
+matplotlib = "^3.8.3"
+numpy = "^1.26.4"
+torch = "^2.2.2"
+torchvision = "^0.17.2"
+tqdm = "^4.66.2"
+torchviz = "^0.0.2"
+autograd = "^1.6.2"
+pandas = "^2.2.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
